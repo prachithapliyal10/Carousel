@@ -1,0 +1,66 @@
+body {
+    background: black;
+}
+
+.container {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carousel-container {
+    width: 90%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.carousel {
+    padding: 0;
+    margin:0;
+    list-style: none;
+    transition: 300ms transform ease-in;
+}
+
+.slide {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slide img {
+    width: 33.3%;
+    height: 400px;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn img {
+    width: 20px;
+    height: 20px;
+}
+
+/*.left-btn {
+    left: -35px;
+}*/
+
+.right-btn{
+    right: -35px;
+}
+
+.hide {
+    display: none;
+}
+
